@@ -1,0 +1,97 @@
+@import url( https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.bg{
+    background-image: url(pic/Yellow\ and\ Green\ Light\ Floral\ Destination\ Wedding\ Wedding\ Website.png);
+}
+nav{
+    text-align: center;
+    padding-top: 1cm;
+    margin: 3px;  
+}
+
+nav a{
+    color: #586039;
+    font-size: 30px;
+    margin-bottom: 130px;
+    margin: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.h2{
+    color: #586039;
+    text-align: left;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    padding-top: 1.3cm;
+    font-family: "Dancing Script";
+    font-size: 30px;    
+}
+.block{
+    display: flex;
+    color: #5a603a;
+    font-size: 30px;
+    padding: 3%;
+    padding-bottom: 3%;
+    border: 3px;
+    line-height: 70px;
+    background-color: rgba(203,210,175,0.2);
+    border-radius: 2%;
+    margin: 5px;
+    animation:fadenum 5s;
+}
+@keyframes fadenum{
+    0%{transform: translateX(250px);}
+
+}
+#block_pho{
+    margin-right: 5%;
+    width: 5cm;
+    height: 7.5cm;
+    float: left;
+    border-radius: 10%;
+}
+#block_img{
+    margin-right: 5%;
+    width: 200PX;
+    float: left;
+    border-radius: 10%;
+}
+.block_pic{
+    width: 80px;
+}
+#block_imgl{
+    margin:5% ;
+    width: 450px;
+    height: 320px;
+    float: left;
+    border-radius: 10%;
+}
+
+.block .b{
+    font-family: Arial,cwTeXYen;
+    padding-top: 30px;
+}
+#block_p{
+    font-size: 25px;
+    color: #586039;
+    font-family:  Arial,cwTeXYen;
+}
+footer{
+    color: #FFFEFC;
+    font-family: Arial,cwTeXYen;
+    background-color: rgba(203,210,175,0.8);
+    margin: 0%;
+    text-align: center;
+    font-size: 10px;
+    padding: 2%;
+}
+
